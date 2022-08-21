@@ -1,4 +1,11 @@
 /* Variables */
+.sistemas li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sistemas ol {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .titulo-areas {
   position: relative;
   top: 5rem;
@@ -11,6 +18,10 @@
   border-bottom-right-radius: 6rem;
   border-top-left-radius: 6rem;
   background-color: #0679de;
+}
+
+.sistemas {
+  color: #fff;
 }
 
 .titulo-armeria {
