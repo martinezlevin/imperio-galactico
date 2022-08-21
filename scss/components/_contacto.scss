@@ -18,6 +18,9 @@
   
   
   .textarea {
+  @include color-negro;
+  @include color-rosa-sable;
+  @include color-rojo-sable;
   position: relative;
   top: 1em;
   left: 4em;
@@ -26,10 +29,7 @@
   max-width: 800px;
   min-width: 100px;
   z-index: 0;
-  color: black;
   font-size: 10pt;
-  background-color: rgb(249, 190, 190);
-  box-shadow: 1px 1px 25px 20px rgb(255, 0, 0);
   border: none;
   border-bottom-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -64,7 +64,9 @@
   
   
   .enviar {
-  color: black;
+  @include color-negro;
+  @include color-rosa-sable;
+  @include color-rojo-sable;
   padding: 0.4rem;
   border-bottom-left-radius: 3rem;
   border-top-right-radius: 3rem;
@@ -74,9 +76,6 @@
   text-shadow: 0px 1px 1px black;
   position: relative;
   top: 5rem;
-  cursor: pointer;
-  background-color: rgb(249, 190, 190);
-  box-shadow: 1px 1px 20px 20px rgb(255, 0, 0);
   border: none;
   
   }
@@ -99,12 +98,8 @@
   }
   
   .foto-vader {
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding: 20px;
-    background-color: rgb(21, 21, 21);
-  } /* agregar extend de foto-palpatine*/
+    @extend .foto-palpatine;
+  }
   
   .contacto-info {
     position: relative;
@@ -125,8 +120,7 @@
   }
   
   .video2 {
-    padding: 20px;
-    background-color: rgb(21, 21, 21);
+    @extend .video1;
   }
   
   

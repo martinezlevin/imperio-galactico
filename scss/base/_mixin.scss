@@ -1,0 +1,13 @@
+//Mixins
+
+@mixin color-rojo-sable {
+    box-shadow: 1px 1px 25px 20px map-get($colors, color-rojo)
+}
+
+@mixin color-rosa-sable {
+    background-color: map-get($colors, color-rosa)
+}
+
+@mixin color-negro {
+    color: map-get($colors, color-negro)
+}

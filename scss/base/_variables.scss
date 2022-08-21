@@ -4,12 +4,14 @@ $color-negro: #000;
 $color-blanco: #fff;
 $color-gris:  rgb(21, 21, 21);
 $color-rojo: rgb(255, 0, 0);
+$color-rosa: rgb(249, 190, 190);
 
 //mapa
 $colors: (
-    "color-celeste": #fff,
-    "color-negro": rgb(0, 43, 69),
-    "color-blanco": rgb(245, 13, 73),
-    "color-gris": rgb(227, 233, 233),
-    "color-rojo":  black
+    "color-celeste": #0679de,
+    "color-negro": #000,
+    "color-blanco": #fff,
+    "color-gris": rgb(21, 21, 21),
+    "color-rojo":  rgb(255, 0, 0),
+    "color-rosa":  rgb(249, 190, 190)
 );
