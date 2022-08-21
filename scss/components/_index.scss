@@ -1,0 +1,88 @@
+// INDEX
+
+.h1 {
+    font-size: 4em;
+}
+
+
+/* BOTON INDEX */
+
+  
+  .btnindex {
+      color: #ffffff;
+      font-weight: normal;
+      font-size: 70%;
+      text-shadow: 1px 1px 1px #000000;
+      text-decoration: none;
+    }
+  
+  
+    .boton.index {
+      background: #0679de8c;
+      color: #ffffff;
+      padding: 1rem 1rem 1rem 1rem;
+      font-size: 1.5em;
+      border: #ffffff;
+      border-bottom-left-radius: 3rem;
+      border-top-right-radius: 3rem;
+      border-bottom-right-radius: 3rem;
+      border-top-left-radius: 3rem;
+      box-shadow: 1px 1px 20px 20px #ffffff;
+      position: absolute;
+      z-index: 5;
+    }
+    
+    .boton.index svg {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .boton.index rect {
+      width: 100%;
+      height: 100%;
+      stroke: #ffffff;
+      stroke-width: 10px;
+      stroke-dasharray: 2000;
+      stroke-dashoffset: 2000;
+      transition: .6s ease all;
+    }
+    
+    .boton.index:hover rect {
+      stroke-dashoffset: 0;
+    }
+
+
+
+/* ARIVE */
+ 
+
+   .pie {
+     box-shadow: 0px 0px 6px 3px #ffffff;
+     border: 3px solid #ffffff;
+     background-color: #000000;
+     overflow: hidden;
+  
+   }
+   
+   .pie img {
+    transition: 0.3s;
+    object-fit: cover;
+   }
+  
+   .pie img:hover {
+    transform: scale(1.1);
+   }
+  
+  
+   .pie:hover {
+    background-color: #0679de8c;
+   }
+   
+   .pie {
+     text-align: start;
+     text-shadow: 2px 2px 5px rgb(147, 147, 147);
+   }
+   
