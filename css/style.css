@@ -118,6 +118,34 @@
   text-shadow: 2px 2px 5px rgb(147, 147, 147);
 }
 
+.formulario {
+  position: relative;
+  top: 10rem;
+}
+
+.titulo-nosotros {
+  position: relative;
+  top: 5rem;
+}
+
+.footer-nosotros {
+  position: relative;
+  top: 10rem;
+}
+
+.titulo-armeria {
+  position: relative;
+  top: 5rem;
+}
+
+.imagen-carousel {
+  width: 50vh;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* footer */
 .logoinsta {
   width: 80px;
@@ -132,6 +160,13 @@
 .logowpp {
   width: 80px;
   height: 80px;
+}
+
+.controles {
+  opacity: 50%;
+  padding: 0px;
+  position: fixed;
+  top: 91%;
 }
 
 /*# sourceMappingURL=style.css.map */

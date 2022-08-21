@@ -135,16 +135,37 @@
 
 // PAGINA NUMERO 2 "SOBRE NOSOTROS"
 
+.formulario {
+  position: relative;
+  top: 10rem;
+}
+
+.titulo-nosotros {
+  position: relative;
+  top: 5rem;
+}
 
 
+.footer-nosotros {
+  position: relative;
+  top: 10rem;
+}
+
+// PAGINA NUMERO 3 "ARMERIA IMPERIAL"
 
 
+.titulo-armeria {
+  position: relative;
+  top: 5rem;
+}
 
+.imagen-carousel {
+  width: 50vh;
+}
 
-
-
-
-
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); 
+}
 
 
 
@@ -168,4 +189,11 @@
   .logowpp {
     width: 80px;
     height: 80px;
+  }
+
+  .controles {
+    opacity: 50%;
+    padding: 0px;
+    position: fixed;
+    top: 91%;
   }
