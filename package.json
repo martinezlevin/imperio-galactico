@@ -1,12 +1,12 @@
 {
   "name": "imperio-galactico",
   "version": "1.0.0",
-  "description": "",
+  "description": "un pequeño proyecto sobre star wars, para todos los que quieran formar parte del Imperio Galactico",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["starwars","imperio","darth","vader","palpatine","stromtrooper"],
+  "author": "gdml@gmail.com",
   "license": "ISC"
 }
