@@ -67,7 +67,7 @@
   border-bottom-left-radius: 1rem;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  border-top-left-radius: 1rem;
+  border-top-left-radius: 0rem;
   resize: none;
   overflow: hidden;
 }
@@ -136,6 +136,18 @@
   background-color: rgb(21, 21, 21);
 }
 
+@media screen and (min-width: 350px) and (max-width: 550px) {
+  .sable1 {
+    width: 50vw;
+    position: relative;
+    top: 1.9rem;
+    right: 7.8em;
+    z-index: 1;
+  }
+  .textarea {
+    position: static;
+  }
+}
 .logoinsta {
   width: 80px;
   height: 80px;
