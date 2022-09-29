@@ -58,17 +58,23 @@
   .video2 {
     @extend .video1;
   }
-  
 
+
+  .sable {
+    width: 35vh;
+    position: relative;
+    z-index: 3;
+    bottom: 5px;
+  }
+  
   .textarea {
+    z-index: 1;
   @include color-negro;
   @include color-rosa-sable;
   @include color-rojo-sable;
   position: relative;
-  top: 0.6em;
-  right: 1em;
-  max-height: 24px;
-  z-index: 0;
+  max-width: 800px;
+  max-height: 35px;
   font-size: 15pt;
   border: none;
   border-bottom-left-radius: 1rem;
